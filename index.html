@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+	<title>Q3 Drill 1</title>
+</head>
+
+<body>
+	<div class="container">
+	
+	<h1>Basic Calculator</h1>
+	<p id="para1">Click the button to display the quotient of two numbers.</p>
+	
+
+	<script>
+		let a = 5; //any number data from 1 to 10
+		let b = 9.5; //any decimal number from 1 to 10
+		let prod = a / b; /*use an operator to get the quotient 
+							of a and b and display output
+							once the button below is clicked
+						  */
+	</script>
+
+	<button type="button" onclick="document.getElementById('display').innerHTML='<kbd>' + prod + '</kbd>' ">Display</button>
+
+	<br><br><br>
+
+	<p id="display"></p> <!--displays outside the div for the border to touch kbd-->
+
+	</div>
+</body>
+</html>
